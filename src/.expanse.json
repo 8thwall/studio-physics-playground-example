@@ -1,0 +1,7985 @@
+{
+  "activeMap": "default",
+  "entrySpaceId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+  "inputs": {
+    "default": [
+      {
+        "name": "backward",
+        "bindings": [
+          {
+            "input": "gamepad:axis:left:down",
+            "modifiers": []
+          },
+          {
+            "input": "gamepad:button:13",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:KeyS",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:ArrowDown",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "name": "forward",
+        "bindings": [
+          {
+            "input": "gamepad:axis:left:up",
+            "modifiers": []
+          },
+          {
+            "input": "gamepad:button:12",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:KeyW",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:ArrowUp",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "name": "jump",
+        "bindings": [
+          {
+            "input": "keyboard:Space",
+            "modifiers": []
+          },
+          {
+            "input": "gamepad:button:0",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "name": "left",
+        "bindings": [
+          {
+            "input": "gamepad:axis:left:left",
+            "modifiers": []
+          },
+          {
+            "input": "gamepad:button:14",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:KeyA",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:ArrowLeft",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "name": "right",
+        "bindings": [
+          {
+            "input": "gamepad:axis:left:right",
+            "modifiers": []
+          },
+          {
+            "input": "gamepad:button:15",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:KeyD",
+            "modifiers": []
+          },
+          {
+            "input": "keyboard:ArrowRight",
+            "modifiers": []
+          }
+        ]
+      },
+      {
+        "name": "modify",
+        "bindings": [
+          {
+            "input": "keyboard:ShiftLeft",
+            "modifiers": []
+          }
+        ]
+      }
+    ]
+  },
+  "objects": {
+    "4a00df33-41af-405e-aa57-f4a20b8a973a": {
+      "id": "4a00df33-41af-405e-aa57-f4a20b8a973a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/cannonball.gltf/Prop_CannonBall.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "cannonball",
+      "order": 80.12220338274767,
+      "shadow": {
+        "castShadow": true
+      },
+      "prefab": true
+    },
+    "036bc50d-a5dc-479d-98d0-6b941050ba93": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 5,
+        "height": 4,
+        "type": "box",
+        "width": 4.6000000000000005
+      },
+      "id": "036bc50d-a5dc-479d-98d0-6b941050ba93",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 18.80998821774875,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        2.5881441631040234,
+        0,
+        18.078933555984904
+      ],
+      "rotation": [
+        0,
+        -0.21643961393810288,
+        0,
+        0.9762960071199334
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "05a5e752-ee3e-478f-8a22-c8bf60014a41": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 5.5,
+        "height": 4,
+        "type": "box",
+        "width": 9.3
+      },
+      "id": "05a5e752-ee3e-478f-8a22-c8bf60014a41",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 21.47417795790558,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        21.44448709000558,
+        0,
+        -2.5815078079161933
+      ],
+      "rotation": [
+        0,
+        -0.43837114678907746,
+        0,
+        0.8987940462991669
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ]
+    },
+    "07d06b74-cfda-4af5-a4de-d1686f7f8c0b": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 10.5
+      },
+      "id": "07d06b74-cfda-4af5-a4de-d1686f7f8c0b",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.41470690154763,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        24.459801270304112,
+        -0.0366809637308424,
+        -11.539518803784448
+      ],
+      "rotation": [
+        -0.4461412018851548,
+        0.45762979549601707,
+        0.2859588337259941,
+        0.7139751702046875
+      ],
+      "scale": [
+        1.000000000000003,
+        1.000000000000002,
+        1.0000000000000004
+      ]
+    },
+    "0d587e4f-2292-4330-8a62-cfc81ad00e24": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 9.5,
+        "height": 4,
+        "type": "box",
+        "width": 23.5
+      },
+      "id": "0d587e4f-2292-4330-8a62-cfc81ad00e24",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 15.934359598293694,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        0.44757927643837014,
+        0,
+        14.825046143175445
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "13bd61d2-d0e9-4673-a7b4-a2e1bb59cf9a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-4.gltf/Environment_Rock_1.gltf"
+        }
+      },
+      "id": "13bd61d2-d0e9-4673-a7b4-a2e1bb59cf9a",
+      "material": null,
+      "name": "Rock",
+      "order": 3.8528791309663264,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -21.98892279848111,
+        2.0274683102216544,
+        2.790940374929031
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.599999999999994,
+        4.599999999999994,
+        4.599999999999994
+      ],
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "1558aaa1-127b-45a7-93d5-ab27be92c63a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-1.gltf/Environment_Cliff1.gltf"
+        }
+      },
+      "id": "1558aaa1-127b-45a7-93d5-ab27be92c63a",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.8478855384377244,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.274309153837352,
+        -0.21088586016524413,
+        -23.619809292441378
+      ],
+      "rotation": [
+        0,
+        0.5766430798598184,
+        0,
+        0.816996180192896
+      ],
+      "scale": [
+        2.0999999999999974,
+        2.0999999999999974,
+        2.0999999999999974
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "16014fce-0c82-42bb-aba9-c426f0f741fa": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 10,
+        "height": 4,
+        "type": "box",
+        "width": 2.5
+      },
+      "id": "16014fce-0c82-42bb-aba9-c426f0f741fa",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 15.19247985603862,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        26.255365844077996,
+        0,
+        4.460287507716744
+      ],
+      "rotation": [
+        0,
+        -0.04006750252936966,
+        0,
+        0.9991969751961117
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "1a1e6b44-0087-41db-90fa-2e3b09bcfb59": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 4.5,
+        "height": 4,
+        "type": "box",
+        "width": 7
+      },
+      "id": "1a1e6b44-0087-41db-90fa-2e3b09bcfb59",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 18.936247932393517,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        23.166682908460313,
+        0,
+        9.988357758636711
+      ],
+      "rotation": [
+        0,
+        0.40673664307580026,
+        0,
+        0.9135454576426009
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "1a2dda94-9400-4019-ad3c-09604300dd55": {
+      "components": {},
+      "geometry": null,
+      "id": "1a2dda94-9400-4019-ad3c-09604300dd55",
+      "material": null,
+      "name": "Text",
+      "order": 1.254466767659345,
+      "parentId": "2af3971e-b296-4388-95ca-7deb837dd034",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#ffffff",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Rocket",
+        "width": 50
+      }
+    },
+    "1c7d0fc1-b9c2-4753-9b0c-fdf3c2e4859b": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 6,
+        "height": 4,
+        "type": "box",
+        "width": 9.899999999999999
+      },
+      "id": "1c7d0fc1-b9c2-4753-9b0c-fdf3c2e4859b",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.41479791154771,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -18.64846505040783,
+        0,
+        7.064021825305888
+      ],
+      "rotation": [
+        0,
+        -0.2672383760782569,
+        0,
+        0.963630453208623
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ]
+    },
+    "1d672f5d-67ec-4e10-beae-499332761ba9": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-1.gltf/Environment_PalmTree_1.gltf"
+        }
+      },
+      "id": "1d672f5d-67ec-4e10-beae-499332761ba9",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.901458380124912,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -24.20217037941102,
+        1.975458789868128,
+        5.085513509782908
+      ],
+      "rotation": [
+        0,
+        0.8057328530688164,
+        0,
+        0.5922791313946366
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "1e5d9952-844e-4230-85f5-b9d54dbbecf8": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 0.05,
+        "height": 0.1,
+        "type": "box",
+        "width": 0.6000000000000001
+      },
+      "hidden": true,
+      "id": "1e5d9952-844e-4230-85f5-b9d54dbbecf8",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 6.257578986003876,
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "position": [
+        -0.475,
+        -0.22215559639954308,
+        0
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.9999999999999991,
+        1,
+        0.9999999999999991
+      ]
+    },
+    "27a9b43d-03b1-44db-94b2-778b2161eebd": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 6.5,
+        "height": 4,
+        "type": "box",
+        "width": 10.100000000000007
+      },
+      "id": "27a9b43d-03b1-44db-94b2-778b2161eebd",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.10253467219019,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -12.623338174655977,
+        0,
+        12.679284798510734
+      ],
+      "rotation": [
+        0,
+        -0.45399049973954714,
+        0,
+        0.8910065241883677
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "2af3971e-b296-4388-95ca-7deb837dd034": {
+      "components": {},
+      "geometry": null,
+      "id": "2af3971e-b296-4388-95ca-7deb837dd034",
+      "material": null,
+      "name": "Rocket-Button",
+      "order": 10.300615756787195,
+      "parentId": "ef1d855d-197b-4949-b0a9-88b2c571de28",
+      "position": [
+        0,
+        -10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#339fd3",
+        "backgroundOpacity": 1,
+        "borderColor": "#fff65e",
+        "borderRadius": 18,
+        "borderWidth": 2,
+        "flexDirection": "row",
+        "gap": "6",
+        "height": 36,
+        "justifyContent": "center",
+        "padding": "10",
+        "type": "overlay",
+        "width": 100
+      }
+    },
+    "2f662aea-c65e-49f1-a851-951e3ff81bf6": {
+      "components": {
+        "582cfe64-929f-4935-8a50-4ed7e71780db": {
+          "id": "582cfe64-929f-4935-8a50-4ed7e71780db",
+          "name": "position-animation",
+          "parameters": {
+            "autoFrom": true,
+            "easeIn": true,
+            "easeOut": true,
+            "easingFunction": "Circular",
+            "reverse": true,
+            "toY": 0.2
+          }
+        }
+      },
+      "geometry": {
+        "radius": 200,
+        "type": "circle"
+      },
+      "id": "2f662aea-c65e-49f1-a851-951e3ff81bf6",
+      "material": {
+        "color": "#4db2ff",
+        "opacity": 1,
+        "type": "basic"
+      },
+      "name": "Water",
+      "order": 3.850382334702025,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "30119bea-a210-4648-89ad-f0ed7ab4463a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "30119bea-a210-4648-89ad-f0ed7ab4463a",
+      "name": "Platform",
+      "order": 3.994618885415785,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -17,
+        0.08017564411745282,
+        44
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "325db98f-a32b-4860-9a64-19d0f0cddc15": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/bones.gltf/Environment_LargeBones.gltf"
+        }
+      },
+      "id": "325db98f-a32b-4860-9a64-19d0f0cddc15",
+      "material": null,
+      "name": "Bones",
+      "order": 3.83540155711622,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        30.898961183560026,
+        0.9256769954014912,
+        18.592407704632876
+      ],
+      "rotation": [
+        0,
+        -0.43867553369793133,
+        0,
+        0.8986455230706015
+      ],
+      "scale": [
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "33579562-1f20-4dd2-8b11-a480159411f5": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 10.5
+      },
+      "id": "33579562-1f20-4dd2-8b11-a480159411f5",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.413263109041246,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        14.715484488106828,
+        -0.3134113520926022,
+        18.946697652886627
+      ],
+      "rotation": [
+        -0.3755036611282639,
+        0.30853757486892497,
+        0.134155955693445,
+        0.8635992965057644
+      ],
+      "scale": [
+        1.0000000000000007,
+        1.0000000000000007,
+        1.0000000000000004
+      ]
+    },
+    "337d7430-4dc2-4960-ba5a-f3b3a2774f1a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 8
+      },
+      "id": "337d7430-4dc2-4960-ba5a-f3b3a2774f1a",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.400291428488398,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -4.359090928308145,
+        -0.27215778873414603,
+        20.40652680513518
+      ],
+      "rotation": [
+        -0.39815844902828257,
+        0.049894893838295026,
+        0.021694917288253294,
+        0.9157017416168399
+      ],
+      "scale": [
+        1.0000000000000007,
+        1.0000000000000009,
+        1.000000000000001
+      ]
+    },
+    "37c70554-e1d7-4b9b-a14b-9605a5ecbf9f": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-1.gltf/Environment_PalmTree_1.gltf"
+        }
+      },
+      "id": "37c70554-e1d7-4b9b-a14b-9605a5ecbf9f",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.9012004318684443,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -11.89739895757231,
+        1.9754587898681277,
+        -2.600346933781216
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "3a79e687-042c-4be6-a41a-b2536291cf44": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-1.gltf/Environment_Cliff1.gltf"
+        }
+      },
+      "id": "3a79e687-042c-4be6-a41a-b2536291cf44",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.849133936569875,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -15.8198093756372,
+        -0.21088586016524413,
+        -12.282825213234464
+      ],
+      "rotation": [
+        0,
+        0.5766430798598184,
+        0,
+        0.816996180192896
+      ],
+      "scale": [
+        2.0999999999999974,
+        2.0999999999999974,
+        2.0999999999999974
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "3af77f07-0311-4a19-b88d-529d640d18f3": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "radius": 5,
+        "type": "sphere"
+      },
+      "id": "3af77f07-0311-4a19-b88d-529d640d18f3",
+      "material": {
+        "color": "#FFFFFF",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 24.04854245019522,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -18.808114452323757,
+        1.0500033219325648,
+        -4.718298975081383
+      ],
+      "rotation": [
+        0,
+        -0.41469324265623914,
+        0,
+        0.9099612708765432
+      ],
+      "scale": [
+        0.9000000000000001,
+        1,
+        1.0499999999999998
+      ]
+    },
+    "3ce9110f-f304-4fc6-b701-ab895facfc6e": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 5.5,
+        "height": 4,
+        "type": "box",
+        "width": 7
+      },
+      "id": "3ce9110f-f304-4fc6-b701-ab895facfc6e",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 20.51114380378337,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        21.280471852996556,
+        0,
+        -16.41060139916425
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "40f6f41b-d2a0-4a30-95b5-f0ff5a611431": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "Tentacle_Idle",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tentacle.gltf/Characters_Tentacle.gltf"
+        },
+        "timeScale": 0.8
+      },
+      "id": "40f6f41b-d2a0-4a30-95b5-f0ff5a611431",
+      "material": null,
+      "name": "Tentacle",
+      "order": 3.83415315898407,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        39.173201749158316,
+        -2.6290355378933254,
+        -14.825294119545505
+      ],
+      "rotation": [
+        0,
+        -0.26969027483394553,
+        0,
+        0.9629471198669172
+      ],
+      "scale": [
+        1.0000000000000004,
+        1,
+        1.0000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "4131ff25-7ba6-4095-a843-8490706863f6": {
+      "components": {},
+      "geometry": {
+        "height": 48.80000000000003,
+        "type": "plane",
+        "width": 82.80000000000014
+      },
+      "id": "4131ff25-7ba6-4095-a843-8490706863f6",
+      "material": {
+        "blending": "normal",
+        "color": "#FFFFFF",
+        "forceTransparent": true,
+        "mipmaps": true,
+        "opacityMap": null,
+        "textureFiltering": "smooth",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/textures/tropical_mountain1.png"
+        },
+        "type": "unlit",
+        "side": "front",
+        "depthWrite": false,
+        "depthTest": true
+      },
+      "name": "Island",
+      "order": 6.450166634501687,
+      "parentId": "63d2f891-c9a6-4b4e-855d-fdd8b5f184d6",
+      "position": [
+        21.027595897346924,
+        1.407106135972322,
+        17.579697572125497
+      ],
+      "rotation": [
+        6.166148401958835e-20,
+        -0.057467036546843805,
+        -3.0579633955089526e-9,
+        0.9983474043190195
+      ],
+      "scale": [
+        0.530600922826912,
+        0.5306009231986547,
+        0.5306009235703976
+      ]
+    },
+    "4865f97e-3637-4fdf-8ec0-711b399e6125": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 0.02,
+        "height": 0.1,
+        "type": "box",
+        "width": 0.9
+      },
+      "hidden": true,
+      "id": "4865f97e-3637-4fdf-8ec0-711b399e6125",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 2.4287115694058907,
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "position": [
+        0,
+        -0.22215559639954338,
+        -0.335
+      ],
+      "rotation": [
+        0,
+        -2.7755575615628914e-16,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "489afbfa-77c1-4d28-a828-80c26feac108": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "489afbfa-77c1-4d28-a828-80c26feac108",
+      "name": "Platform",
+      "order": 4.0053536068989315,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.499999999999999,
+        0.0801756441174537,
+        36.9
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "4aeed174-32ba-4838-8f94-d8737e846780": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "radius": 5,
+        "type": "sphere"
+      },
+      "id": "4aeed174-32ba-4838-8f94-d8737e846780",
+      "material": {
+        "color": "#FFFFFF",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 23.7564119191404,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -18.808114452323757,
+        4.943514291994995,
+        -4.718298975081383
+      ],
+      "rotation": [
+        0,
+        -0.414693242656239,
+        0,
+        0.9099612708765432
+      ],
+      "scale": [
+        0.9000000000000001,
+        1,
+        0.75
+      ]
+    },
+    "50193fc1-44ae-4014-ae42-9926c6aea059": {
+      "components": {},
+      "geometry": null,
+      "id": "50193fc1-44ae-4014-ae42-9926c6aea059",
+      "material": null,
+      "name": "Icon",
+      "order": 0.0936879311929919,
+      "parentId": "78e280bf-7325-4897-9049-dead19517787",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/textures/icons/beachball.png"
+        },
+        "width": 16
+      }
+    },
+    "52d0c74b-c538-4846-8283-48a14a6025f9": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "52d0c74b-c538-4846-8283-48a14a6025f9",
+      "name": "Platform",
+      "order": 4.008037287269717,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.499999999999999,
+        0.0801756441174537,
+        31.7
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "56e6d1a0-08d7-4ad3-8a09-84aa83407f4c": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "56e6d1a0-08d7-4ad3-8a09-84aa83407f4c",
+      "name": "Platform",
+      "order": 3.9919352050449994,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -9.863703209900448,
+        0.08017564411745193,
+        43.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "593ac5a4-06a1-462b-8442-a53729a6c1ec": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-3.gltf/Environment_PalmTree_3.gltf"
+        }
+      },
+      "id": "593ac5a4-06a1-462b-8442-a53729a6c1ec",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.9027481214072477,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -23.282541302161054,
+        1.9066474760492182,
+        1.0282908359139056
+      ],
+      "rotation": [
+        0,
+        0.3733562658972474,
+        0,
+        0.9276880395452255
+      ],
+      "scale": [
+        1.9000000000000004,
+        1.9000000000000004,
+        1.9000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "596dbe6f-132c-40f2-9ce9-67d66ca104ae": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-3.gltf/Environment_Cliff3.gltf"
+        }
+      },
+      "id": "596dbe6f-132c-40f2-9ce9-67d66ca104ae",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.842891945909123,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -24.854387696205947,
+        0.655541923865905,
+        -8.851011091891007
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.0000000000000004,
+        2.0000000000000004,
+        2.0000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "5b6b7ab7-31f3-4c02-8c6a-138643cc1e47": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-3.gltf/Environment_Cliff3.gltf"
+        }
+      },
+      "id": "5b6b7ab7-31f3-4c02-8c6a-138643cc1e47",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.8416435477769726,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -2.4819278120987556,
+        -3.17953614141784,
+        -32.81685393384642
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.5687890476412291,
+        0.8224834462062951
+      ],
+      "scale": [
+        3.3000000000000016,
+        3.3000000000000016,
+        3.3000000000000016
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "5cf3d573-2cb7-402f-9d1b-9d9d45b7e768": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 8
+      },
+      "id": "5cf3d573-2cb7-402f-9d1b-9d9d45b7e768",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.414661882537324,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        24.77495689012992,
+        -0.051056610538459196,
+        -4.453779983259733
+      ],
+      "rotation": [
+        -0.24468948538621185,
+        0.7522278483469161,
+        0.4700441280846853,
+        0.39158503235684056
+      ],
+      "scale": [
+        1.0000000000000029,
+        1.0000000000000018,
+        1.0000000000000004
+      ]
+    },
+    "63d2f891-c9a6-4b4e-855d-fdd8b5f184d6": {
+      "components": {},
+      "geometry": {
+        "height": 90.5,
+        "type": "plane",
+        "width": 90.5
+      },
+      "id": "63d2f891-c9a6-4b4e-855d-fdd8b5f184d6",
+      "material": {
+        "blending": "normal",
+        "color": "#FFFFFF",
+        "forceTransparent": true,
+        "mipmaps": true,
+        "opacityMap": null,
+        "textureFiltering": "smooth",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/textures/volcano.png"
+        },
+        "type": "basic",
+        "depthTest": true
+      },
+      "name": "Backdrop",
+      "order": 5.28087983460342,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -5.367834623327119,
+        16.242855857394638,
+        -222.3576560568936
+      ],
+      "rotation": [
+        -2.660623879521836e-8,
+        0,
+        0,
+        0.9999999999999996
+      ],
+      "scale": [
+        1.884655597603633,
+        1.8846556978908344,
+        1.8846556978908344
+      ]
+    },
+    "6985abda-ada9-41d9-aa5e-3cc22dee9c49": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/island/E.glb"
+        }
+      },
+      "id": "6985abda-ada9-41d9-aa5e-3cc22dee9c49",
+      "material": null,
+      "name": "Island Part E",
+      "order": 3.971823265977245,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    "6d27621a-83da-4937-b605-117ea6dcf7fd": {
+      "components": {
+        "c321476e-5ba3-417b-ae11-3d4e4dc8aa49": {
+          "id": "c321476e-5ba3-417b-ae11-3d4e4dc8aa49",
+          "name": "particle-emitter",
+          "parameters": {
+            "animateColor": false,
+            "blendingMode": "add",
+            "boundingZoneType": "none",
+            "colorEnd": "#48cae4",
+            "colorStart": "#0077b6",
+            "emitDelay": 0.1,
+            "emitterLife": 0,
+            "forceX": 0.2,
+            "forceY": 20,
+            "forceZ": 0.2,
+            "gravity": 0,
+            "mass": 1,
+            "maximumLifespan": 0.8,
+            "minimumLifespan": 0.2,
+            "particlesPerShot": 50,
+            "radialVelocity": 1,
+            "resourceType": "sprite",
+            "resourceUrl": "https://cdn.8thwall.com/web/assets/sprites/circle_05-m1igpyne.png",
+            "scale": 0.15,
+            "spawnAreaType": "point",
+            "spread": 80,
+            "stopped": true
+          }
+        }
+      },
+      "geometry": null,
+      "id": "6d27621a-83da-4937-b605-117ea6dcf7fd",
+      "material": null,
+      "name": "Particles",
+      "order": 1.3229692865398963,
+      "parentId": "f687cdfd-cc08-4755-b2f2-5386dcfabe0b",
+      "position": [
+        0,
+        -0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "6d34d834-5055-46ee-84f9-90dd18fbb705": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-1.gltf/Environment_Cliff1.gltf"
+        }
+      },
+      "id": "6d34d834-5055-46ee-84f9-90dd18fbb705",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.8466371403055737,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        15.327503254661234,
+        -2.466109959779641,
+        -24.29827462180485
+      ],
+      "rotation": [
+        0,
+        0.2498092401715249,
+        0,
+        0.9682950704846769
+      ],
+      "scale": [
+        3.4999999999999996,
+        3.4999999999999996,
+        3.4999999999999996
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "71a8f0a4-f682-42a3-b514-4ee4d8d8d47a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "71a8f0a4-f682-42a3-b514-4ee4d8d8d47a",
+      "name": "Platform",
+      "order": 3.989251524674213,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -2,
+        0.0801756441174537,
+        43.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "739e7e92-bd8e-4212-b9f6-1b897f29f6ec": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-2.gltf/Environment_PalmTree_2.gltf"
+        }
+      },
+      "id": "739e7e92-bd8e-4212-b9f6-1b897f29f6ec",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.9004265870990427,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -20.891076346068985,
+        1.950584737201556,
+        4.044710093848714
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "78674bb1-2b76-4b08-97bd-3f52a7caa62c": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-2.gltf/Environment_PalmTree_2.gltf"
+        }
+      },
+      "id": "78674bb1-2b76-4b08-97bd-3f52a7caa62c",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.900942483611977,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -24.835745651928438,
+        0.7283973249912168,
+        9.482980834593956
+      ],
+      "rotation": [
+        0,
+        -0.34242390859045096,
+        0,
+        0.9395455639965731
+      ],
+      "scale": [
+        1.9000000000000008,
+        1.900000000000001,
+        1.9000000000000008
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "78e280bf-7325-4897-9049-dead19517787": {
+      "components": {},
+      "geometry": null,
+      "id": "78e280bf-7325-4897-9049-dead19517787",
+      "material": null,
+      "name": "BeachBall-Button",
+      "order": 8.63551814565257,
+      "parentId": "ef1d855d-197b-4949-b0a9-88b2c571de28",
+      "position": [
+        0,
+        -10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "center",
+        "background": "#329fd2",
+        "backgroundOpacity": 1,
+        "borderColor": "#fff65e",
+        "borderRadius": 18,
+        "borderWidth": 2,
+        "flexDirection": "row",
+        "gap": "6",
+        "height": 36,
+        "justifyContent": "center",
+        "padding": "10",
+        "type": "overlay",
+        "width": 125
+      }
+    },
+    "794d3967-6f43-4ab0-b73d-7f7901178546": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-2.gltf/Environment_Cliff2.gltf"
+        }
+      },
+      "id": "794d3967-6f43-4ab0-b73d-7f7901178546",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.844140344041273,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -25.90992904201449,
+        -0.08677920764358316,
+        -3.591101801508989
+      ],
+      "rotation": [
+        0,
+        0.3137185448312382,
+        0,
+        0.9495160212597629
+      ],
+      "scale": [
+        1.3999999999999995,
+        1.3999999999999995,
+        1.3999999999999995
+      ],
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "7b82f637-74a0-4494-8d63-720b851fe4cc": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "7b82f637-74a0-4494-8d63-720b851fe4cc",
+      "name": "Platform",
+      "order": 3.9973025657865717,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        1.243632717858688,
+        0.0801756441174537,
+        43.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "7ce61eb4-3a1f-4f15-9a00-936ce4a7a3ec": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "7ce61eb4-3a1f-4f15-9a00-936ce4a7a3ec",
+      "name": "Platform",
+      "order": 4.002669926528145,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.499999999999999,
+        0.0801756441174537,
+        40.15
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "7e92269c-c039-4392-afab-258978753cd8": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/island/B.glb"
+        }
+      },
+      "id": "7e92269c-c039-4392-afab-258978753cd8",
+      "material": null,
+      "name": "Island Part B",
+      "order": 3.949586197916455,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    "8479b45e-e4c8-4b84-9175-06a6bf979b60": {
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/island/A.glb"
+        }
+      },
+      "hidden": false,
+      "id": "8479b45e-e4c8-4b84-9175-06a6bf979b60",
+      "material": null,
+      "name": "Island Part A",
+      "order": 3.9421738418961914,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    "86b9b9ac-28b3-484e-8890-338d32059ff4": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 12,
+        "height": 4,
+        "type": "box",
+        "width": 9
+      },
+      "id": "86b9b9ac-28b3-484e-8890-338d32059ff4",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 14.142895024923718,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        21.796262164008272,
+        0,
+        4.911430318601769
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "86e4e0ee-28f2-465b-875a-f444130ce9aa": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 5.5
+      },
+      "id": "86e4e0ee-28f2-465b-875a-f444130ce9aa",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.41384750221851,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        20.824940548088914,
+        -0.31341135209260235,
+        15.040737298746967
+      ],
+      "rotation": [
+        -0.3939408687250038,
+        0.1419845364655744,
+        0.06173663350832439,
+        0.9060019709889731
+      ],
+      "scale": [
+        1.000000000000001,
+        1.0000000000000004,
+        1.0000000000000004
+      ]
+    },
+    "8772080d-7949-4e87-9874-29f92daaccfe": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-3.gltf/Environment_PalmTree_3.gltf"
+        }
+      },
+      "id": "8772080d-7949-4e87-9874-29f92daaccfe",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.9017163283813785,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -9.215114698500418,
+        1.9066474760492182,
+        17.838628077903508
+      ],
+      "rotation": [
+        0,
+        -0.5440559138118264,
+        0,
+        0.8390489631996326
+      ],
+      "scale": [
+        2.1000000000000005,
+        2.1000000000000005,
+        2.1000000000000005
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "880472fd-1c4d-47d9-86ee-37d8226b49dc": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 4.5,
+        "height": 4,
+        "type": "box",
+        "width": 5
+      },
+      "id": "880472fd-1c4d-47d9-86ee-37d8226b49dc",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 20.06266478425538,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        19.4774269272752,
+        0,
+        12.682524245713198
+      ],
+      "rotation": [
+        0,
+        0.14780941112961074,
+        0,
+        0.9890158633619168
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "88d905c3-9c1e-49bf-83f0-72fb6962eff0": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 5,
+        "height": 4,
+        "type": "box",
+        "width": 4.6000000000000005
+      },
+      "id": "88d905c3-9c1e-49bf-83f0-72fb6962eff0",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 18.894825116105793,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -5.692260197299728,
+        0,
+        17.653173645567048
+      ],
+      "rotation": [
+        0,
+        -0.6360782202777643,
+        0,
+        0.7716245833877197
+      ],
+      "scale": [
+        1.0000000000000007,
+        1,
+        1.0000000000000007
+      ]
+    },
+    "8fdd8d7a-9cec-4f56-a481-b6bbddc6b442": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/island/C.glb"
+        }
+      },
+      "id": "8fdd8d7a-9cec-4f56-a481-b6bbddc6b442",
+      "material": null,
+      "name": "Island Part C",
+      "order": 3.9569985539367183,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    "92ddb4ad-d9c2-45cd-83e4-dbbc689d16d8": {
+      "components": {},
+      "geometry": {
+        "height": 48.80000000000003,
+        "type": "plane",
+        "width": 82.80000000000014
+      },
+      "id": "92ddb4ad-d9c2-45cd-83e4-dbbc689d16d8",
+      "material": {
+        "blending": "normal",
+        "color": "#FFFFFF",
+        "forceTransparent": true,
+        "mipmaps": true,
+        "opacityMap": null,
+        "textureFiltering": "smooth",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/textures/tropical_mountain2.png"
+        },
+        "type": "basic",
+        "depthTest": true
+      },
+      "name": "Island",
+      "order": 7.651090667772743,
+      "parentId": "63d2f891-c9a6-4b4e-855d-fdd8b5f184d6",
+      "position": [
+        -29.416568824209392,
+        1.4071057373493971,
+        25.070852720647295
+      ],
+      "rotation": [
+        3.0716712865296877e-18,
+        0.15306167229608397,
+        8.144790826841877e-9,
+        0.9882166384320424
+      ],
+      "scale": [
+        0.5306009206147368,
+        0.5306009231986549,
+        0.530600925782573
+      ]
+    },
+    "937c3ddb-cd3d-49f4-bf3f-3b0bfcf9a5fa": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 8.4
+      },
+      "id": "937c3ddb-cd3d-49f4-bf3f-3b0bfcf9a5fa",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.354574729374864,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -27.06285884582775,
+        -0.27215778873414065,
+        3.8834137522992327
+      ],
+      "rotation": [
+        -0.390549422680417,
+        -0.45428613794631784,
+        -0.23147034863618593,
+        0.7664963998715549
+      ],
+      "scale": [
+        1.0000000000000013,
+        1.0000000000000013,
+        1.0000000000000013
+      ]
+    },
+    "95fded79-b30e-4dfd-ac53-3172bf72980c": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 3.5,
+        "height": 4,
+        "type": "box",
+        "width": 7.800000000000001
+      },
+      "id": "95fded79-b30e-4dfd-ac53-3172bf72980c",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 22.46428138808558,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        21.43072232760874,
+        0,
+        -11.712933714262956
+      ],
+      "rotation": [
+        0,
+        0.5000000000000001,
+        0,
+        0.8660254037844386
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ]
+    },
+    "97936ba3-824f-4d3e-a336-29dadfcae8c1": {
+      "components": {},
+      "geometry": null,
+      "id": "97936ba3-824f-4d3e-a336-29dadfcae8c1",
+      "material": null,
+      "name": "Icon",
+      "order": 0.0936879311929919,
+      "parentId": "2af3971e-b296-4388-95ca-7deb837dd034",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/textures/icons/rocket.png"
+        },
+        "width": 16
+      }
+    },
+    "99cb1146-f564-4fb3-afc6-d0658783d542": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-1.gltf/Environment_Rock_2.gltf"
+        }
+      },
+      "id": "99cb1146-f564-4fb3-afc6-d0658783d542",
+      "material": null,
+      "name": "Rock",
+      "order": 3.8378983533805213,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        28.243653230893308,
+        0.6846738062474413,
+        -13.11464909124721
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "9c311ef2-d1e4-41df-aadd-f0b9a451fe5c": {
+      "components": {},
+      "geometry": null,
+      "id": "9c311ef2-d1e4-41df-aadd-f0b9a451fe5c",
+      "light": {
+        "intensity": 0.2,
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "order": 0.8938186474463521,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a0673cd9-856a-4f3b-9d92-ce4e1e85d390": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 6,
+        "height": 4,
+        "type": "box",
+        "width": 7.300000000000001
+      },
+      "id": "a0673cd9-856a-4f3b-9d92-ce4e1e85d390",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 18.44247251220979,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        7.24968487831249,
+        0,
+        18.628491371155548
+      ],
+      "rotation": [
+        0,
+        -0.011409414471834748,
+        0,
+        0.9999349105123843
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a1c68663-26b6-459b-b6f3-5eef0a83c256": {
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/space-barge.glb"
+        }
+      },
+      "id": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "material": null,
+      "name": "Barge",
+      "order": 29.26774593241659,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -49.650892651815674,
+        3.6454820399579932,
+        27.99672506540017
+      ],
+      "rotation": [
+        0,
+        -0.316757246327524,
+        0,
+        0.9485066404084919
+      ],
+      "scale": [
+        14.399999999999997,
+        14.400000000000006,
+        14.399999999999997
+      ],
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "a59d295b-1d2e-41db-b9f0-bc71284e4a3c": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-3.gltf/Environment_PalmTree_3.gltf"
+        }
+      },
+      "id": "a59d295b-1d2e-41db-b9f0-bc71284e4a3c",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.901974276637846,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        29.19645768247428,
+        0.820219068649223,
+        -11.101005551016263
+      ],
+      "rotation": [
+        0,
+        0.6255825218763564,
+        0,
+        0.7801580021526524
+      ],
+      "scale": [
+        2.1000000000000005,
+        2.1000000000000005,
+        2.1000000000000005
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "3dOnly",
+          "desktop": "3D",
+          "phone": "3D",
+          "headset": "disabled"
+        }
+      },
+      "components": {
+        "445c2ba5-1cae-4ff7-828e-df6ace75610f": {
+          "id": "445c2ba5-1cae-4ff7-828e-df6ace75610f",
+          "name": "customOrbitCam",
+          "parameters": {
+            "autoOrientSpeed": 0.04,
+            "autoOrientStrength": 0.04,
+            "controllerType": "rocket",
+            "distance": 5,
+            "followSpeed": 0.5,
+            "height": 1,
+            "jumpForce": 8,
+            "maxPolarAngle": 50,
+            "minPolarAngle": 0,
+            "minVelocityThreshold": 0.003,
+            "rotationSpeed": 0.5,
+            "target": {
+              "type": "entity",
+              "id": "f687cdfd-cc08-4755-b2f2-5386dcfabe0b"
+            }
+          }
+        }
+      },
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "PlayerCamera",
+      "order": -0.6258312480831324,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        16.19655783327217,
+        15
+      ],
+      "rotation": [
+        2.094269368838496e-17,
+        -0.9396926207859084,
+        0.3420201433256687,
+        5.753957801139251e-17
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a8627785-8aeb-4e35-bc1c-e0eb900d0941": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 0.05,
+        "height": 0.1,
+        "type": "box",
+        "width": 0.6000000000000001
+      },
+      "hidden": true,
+      "id": "a8627785-8aeb-4e35-bc1c-e0eb900d0941",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 5.011886002795586,
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "position": [
+        0.485,
+        -0.2221555963995431,
+        0
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.9999999999999992,
+        1,
+        0.9999999999999992
+      ]
+    },
+    "aa8819f1-9f8a-4127-8cf0-83a9798184b3": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 5.2
+      },
+      "id": "aa8819f1-9f8a-4127-8cf0-83a9798184b3",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.367577438622583,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -10.457871559822392,
+        -0.2721577887341461,
+        20.131814944541365
+      ],
+      "rotation": [
+        -0.4449418759609677,
+        -0.17700637012701764,
+        -0.09018925030234559,
+        0.8732476001001622
+      ],
+      "scale": [
+        1.000000000000001,
+        1.0000000000000009,
+        1.0000000000000013
+      ]
+    },
+    "aac1f4b4-2f80-4d98-9ed1-33f135f3bb59": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "static"
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "Tentacle_Idle",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tentacle.gltf/Characters_Tentacle.gltf"
+        }
+      },
+      "id": "aac1f4b4-2f80-4d98-9ed1-33f135f3bb59",
+      "material": null,
+      "name": "Tentacle",
+      "order": 3.8329047608519193,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        42.421189685411996,
+        -1.4718179891309058,
+        0.8919386084552237
+      ],
+      "rotation": [
+        0,
+        0.9651540849648769,
+        0,
+        -0.26168223530765566
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "ac1388dd-950b-4bc8-9a58-d34ae4138d05": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-2.gltf/Environment_PalmTree_2.gltf"
+        }
+      },
+      "id": "ac1388dd-950b-4bc8-9a58-d34ae4138d05",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.90068453535551,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -27.527259112009293,
+        0.7283973249912168,
+        8.350622486688561
+      ],
+      "rotation": [
+        0,
+        -0.34242390859045096,
+        0,
+        0.9395455639965731
+      ],
+      "scale": [
+        0.9999999999999999,
+        1,
+        0.9999999999999999
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "castShadow": true,
+        "color": "#ffffff",
+        "followCamera": false,
+        "intensity": 1,
+        "shadowBias": -0.0005,
+        "shadowCamera": [
+          -50,
+          50,
+          50,
+          -50,
+          0.5,
+          60
+        ],
+        "shadowMapSize": [
+          2048,
+          2048
+        ],
+        "shadowNormalBias": 0,
+        "type": "directional",
+        "shadowRadius": 0.75
+      },
+      "material": null,
+      "name": "Directional Light",
+      "order": 2.893818647446352,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        6.673052276153421,
+        19.121408763735886,
+        2.6186239544159235
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "aebfb1ca-29b5-43d0-92e5-4d76ec563ac1": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "aebfb1ca-29b5-43d0-92e5-4d76ec563ac1",
+      "name": "Platform",
+      "order": 4.01340464801129,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.499999999999999,
+        0.0801756441174537,
+        23.25
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "b01ba45c-7e2d-42b9-b8a8-b1bfb378793b": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "b01ba45c-7e2d-42b9-b8a8-b1bfb378793b",
+      "name": "Platform",
+      "order": 4.010720967640505,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.499999999999999,
+        0.0801756441174537,
+        26.5
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "b20de7b3-7134-41c8-84bf-999363abe7c4": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 7
+      },
+      "id": "b20de7b3-7134-41c8-84bf-999363abe7c4",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.41186403531045,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        7.221498071601702,
+        -0.3134113520926022,
+        22.155040109349315
+      ],
+      "rotation": [
+        -0.3987119689586229,
+        -0.012509489889766596,
+        -0.005439281008518733,
+        0.9169747503033803
+      ],
+      "scale": [
+        1.0000000000000007,
+        1.0000000000000004,
+        1.0000000000000004
+      ]
+    },
+    "b7559bf8-f8e9-4ec3-b59e-0fe4de55bd64": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 5.300000000000001
+      },
+      "id": "b7559bf8-f8e9-4ec3-b59e-0fe4de55bd64",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.409238750136925,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        1.8847677814340007,
+        -0.27215778873414603,
+        20.983512064526753
+      ],
+      "rotation": [
+        -0.3912495756368459,
+        -0.17702199777793198,
+        -0.07697135527415151,
+        0.899812420637745
+      ],
+      "scale": [
+        1.0000000000000007,
+        1.0000000000000009,
+        1.0000000000000004
+      ]
+    },
+    "bc115120-9fa6-4201-a16d-774a279c0b24": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 7.800000000000001,
+        "height": 4,
+        "type": "box",
+        "width": 22
+      },
+      "id": "bc115120-9fa6-4201-a16d-774a279c0b24",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.52768384272448,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        16.439541606757057,
+        0,
+        11.781011374327324
+      ],
+      "rotation": [
+        0,
+        0.35020738125946765,
+        0,
+        0.9366721892483976
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "c0b6ed8b-a759-484e-ae72-2129a2657b24": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 8
+      },
+      "id": "c0b6ed8b-a759-484e-ae72-2129a2657b24",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.414537344870602,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        28.203859820165864,
+        -0.25344037857222973,
+        5.052536121101266
+      ],
+      "rotation": [
+        -0.33738069069734045,
+        0.5961997357998613,
+        0.303778938371884,
+        0.6621468879171842
+      ],
+      "scale": [
+        1.0000000000000033,
+        1.0000000000000022,
+        1.0000000000000009
+      ]
+    },
+    "c4795fe3-337b-4da8-95b7-04c93f50b891": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-3.gltf/Environment_PalmTree_3.gltf"
+        }
+      },
+      "id": "c4795fe3-337b-4da8-95b7-04c93f50b891",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.9022322248943127,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -11.761401354045693,
+        1.9066474760492182,
+        -5.852121437965547
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        0.9999999999999999
+      ],
+      "scale": [
+        1.9000000000000004,
+        1.9000000000000004,
+        1.9000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "c56f1b21-0c45-442c-a18f-aacde3ef2461": {
+      "components": {},
+      "geometry": null,
+      "id": "c56f1b21-0c45-442c-a18f-aacde3ef2461",
+      "material": null,
+      "name": "Text",
+      "order": 1.254466767659345,
+      "parentId": "78e280bf-7325-4897-9049-dead19517787",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "color": "#ffffff",
+        "fontSize": 16,
+        "height": 14,
+        "text": "Beach Ball",
+        "width": 78
+      }
+    },
+    "c92ea195-9da8-40af-8619-4ca516b36f8a": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/ship.gltf/Ship_Large.gltf"
+        }
+      },
+      "id": "c92ea195-9da8-40af-8619-4ca516b36f8a",
+      "name": "Ship",
+      "order": 4.90234911415666,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        39.1238107448454,
+        0.6700406273579473,
+        -5.83817703142933
+      ],
+      "rotation": [
+        0,
+        0.5044269195676934,
+        0,
+        0.8634543895397416
+      ],
+      "scale": [
+        1.375004891047154,
+        1.375004891047154,
+        1.375004891047154
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "cc312150-06d4-4b6d-bf10-32a1979ddf4f": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 8.4
+      },
+      "id": "cc312150-06d4-4b6d-bf10-32a1979ddf4f",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.34847720533427,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -21.420662305214446,
+        -0.27215778873414065,
+        9.764774129725634
+      ],
+      "rotation": [
+        -0.4371507084128656,
+        -0.240422846878191,
+        -0.12250155912434034,
+        0.8579565728201058
+      ],
+      "scale": [
+        1.0000000000000013,
+        1.0000000000000013,
+        1.0000000000000013
+      ]
+    },
+    "ce971c12-ad61-45dc-bebd-d508c0a892ab": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-1.gltf/Environment_Cliff1.gltf"
+        }
+      },
+      "id": "ce971c12-ad61-45dc-bebd-d508c0a892ab",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.845388742173424,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -7.105516984785247,
+        -2.46610995977964,
+        -21.366292701745852
+      ],
+      "rotation": [
+        0,
+        0.968596147871129,
+        0,
+        -0.2486393016584666
+      ],
+      "scale": [
+        3.5,
+        3.4999999999999996,
+        3.5
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "cfe6d0d5-ee50-477c-8955-2f25d54895fb": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 6.5
+      },
+      "id": "cfe6d0d5-ee50-477c-8955-2f25d54895fb",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.414427587150076,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        25.654981388118813,
+        -0.26831400526816146,
+        11.943904409586283
+      ],
+      "rotation": [
+        -0.3962875540771693,
+        0.35266816671183326,
+        0.16821408668306023,
+        0.8308341348987974
+      ],
+      "scale": [
+        1.0000000000000036,
+        1.0000000000000027,
+        1.000000000000001
+      ]
+    },
+    "d0fa1832-7792-4f79-b6e3-d10e46b82772": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-4.gltf/Environment_Rock_1.gltf"
+        }
+      },
+      "id": "d0fa1832-7792-4f79-b6e3-d10e46b82772",
+      "material": null,
+      "name": "Rock",
+      "order": 3.854127529098477,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        31.144408641028978,
+        1.1316985010979739,
+        -13.119653784454018
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "d3466a25-a65c-4615-8090-dd741ced060f": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "d3466a25-a65c-4615-8090-dd741ced060f",
+      "name": "Platform",
+      "order": 3.999986246157359,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4.5,
+        0.0801756441174537,
+        43.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "d4a26186-90b7-4bcb-bd96-1b47cea79d57": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 2.6999999999999984,
+        "height": 4,
+        "type": "box",
+        "width": 9.899999999999999
+      },
+      "id": "d4a26186-90b7-4bcb-bd96-1b47cea79d57",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.33739537275079,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -16.04332845377501,
+        -0.272157788734146,
+        14.812053373966798
+      ],
+      "rotation": [
+        -0.40450849718747456,
+        -0.40450849718747445,
+        -0.20610737385376388,
+        0.7938926261462357
+      ],
+      "scale": [
+        1.0000000000000016,
+        1.0000000000000009,
+        1.0000000000000013
+      ]
+    },
+    "db47ba3a-38b7-49f9-9cf8-3ddc050bbf28": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 9.5,
+        "height": 4,
+        "type": "box",
+        "width": 9.899999999999999
+      },
+      "id": "db47ba3a-38b7-49f9-9cf8-3ddc050bbf28",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 17.294535408268416,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        -22.587111683819032,
+        0,
+        0.7605965016083926
+      ],
+      "rotation": [
+        0,
+        -0.5075383629607045,
+        0,
+        0.8616291604415256
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ]
+    },
+    "e3f636ba-61a5-4bf4-b343-6798f5b95044": {
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/skull-cave.glb"
+        }
+      },
+      "id": "e3f636ba-61a5-4bf4-b343-6798f5b95044",
+      "material": null,
+      "name": "Skull Cave",
+      "order": 3.8516307328341757,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -18.459997769529494,
+        1.5564874072265065,
+        -4.604536758814525
+      ],
+      "rotation": [
+        0,
+        -0.3788946566266392,
+        0,
+        0.9254398085125695
+      ],
+      "scale": [
+        1.5999999999999999,
+        1.6,
+        1.5999999999999999
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "ebea3dd5-5e33-422e-ac61-b36ad549ba2d": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-1.gltf/Environment_Rock_2.gltf"
+        }
+      },
+      "id": "ebea3dd5-5e33-422e-ac61-b36ad549ba2d",
+      "material": null,
+      "name": "Rock",
+      "order": 3.8391467515126716,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        15.596453025725909,
+        1.6963445092608893,
+        -18.29692847883319
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "ecb65bc6-7862-4e42-9c4d-cfc8c597ab50": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 0.65,
+        "height": 0.1,
+        "type": "box",
+        "width": 1
+      },
+      "hidden": true,
+      "id": "ecb65bc6-7862-4e42-9c4d-cfc8c597ab50",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 1.4077817878905867,
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "position": [
+        0.0089694369077562,
+        -0.2770217775350454,
+        -0.008066889983606718
+      ],
+      "rotation": [
+        0,
+        -1.3877787807814457e-16,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ef1d855d-197b-4949-b0a9-88b2c571de28": {
+      "components": {},
+      "geometry": null,
+      "id": "ef1d855d-197b-4949-b0a9-88b2c571de28",
+      "material": null,
+      "name": "HUD",
+      "order": 3.765274623865702,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        -10,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "ui": {
+        "alignItems": "flex-end",
+        "flexDirection": "row",
+        "gap": 10,
+        "height": "100%",
+        "justifyContent": "center",
+        "paddingBottom": 20,
+        "type": "overlay",
+        "width": "100%"
+      }
+    },
+    "f5296e06-5187-4a95-b9e1-fc0527c3bb98": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 30.5,
+        "height": 4,
+        "type": "box",
+        "width": 39
+      },
+      "id": "f5296e06-5187-4a95-b9e1-fc0527c3bb98",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 12.5587763875774,
+      "parentId": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "position": [
+        1.2655397070551064,
+        0,
+        -4.779535767133048
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "f5fb1284-27b6-4148-8988-56776eb8ae99": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/cliff-4.gltf/Environment_Cliff4.gltf"
+        }
+      },
+      "id": "f5fb1284-27b6-4148-8988-56776eb8ae99",
+      "material": null,
+      "name": "Cliff",
+      "order": 3.840395149644822,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        24.301493915916737,
+        -1.0187762303565182,
+        -19.573658903324485
+      ],
+      "rotation": [
+        0,
+        0.21284655862600646,
+        0,
+        0.9770856372299543
+      ],
+      "scale": [
+        1.8999999999999997,
+        1.899999999999999,
+        1.8999999999999997
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "f687cdfd-cc08-4755-b2f2-5386dcfabe0b": {
+      "collider": {
+        "angularDamping": 0.7,
+        "friction": 1,
+        "geometry": {
+          "type": "sphere",
+          "radius": 0.5
+        },
+        "gravityFactor": 1,
+        "linearDamping": 0.5,
+        "mass": 1,
+        "restitution": 0.3,
+        "rollingFriction": 0,
+        "spinningFriction": 0,
+        "highPrecision": true
+      },
+      "components": {
+        "050ce140-91fb-4c48-8a81-4cdb059cb365": {
+          "id": "050ce140-91fb-4c48-8a81-4cdb059cb365",
+          "name": "vehicle-swap",
+          "parameters": {
+            "beachBallButton": {
+              "type": "entity",
+              "id": "78e280bf-7325-4897-9049-dead19517787"
+            },
+            "beachBallModel": "assets/models/props/beach-ball.glb",
+            "beachBallObj": "assets/models/props/beach-ball.glb",
+            "rocketButton": {
+              "type": "entity",
+              "id": "2af3971e-b296-4388-95ca-7deb837dd034"
+            },
+            "rocketModel": "assets/models/props/rocket.glb",
+            "rocketObj": "assets/models/props/rocket.glb"
+          }
+        },
+        "4663a89a-aded-47a8-8c3e-a9ebaaec6f1e": {
+          "id": "4663a89a-aded-47a8-8c3e-a9ebaaec6f1e",
+          "name": "ballController",
+          "parameters": {
+            "cameraEntity": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            },
+            "force": 20,
+            "jumpForce": 8
+          }
+        },
+        "513e227b-5476-4846-8954-bc4938d006dc": {
+          "id": "513e227b-5476-4846-8954-bc4938d006dc",
+          "name": "Reset Transform",
+          "parameters": {
+            "autoReset": true,
+            "resetY": 0
+          }
+        },
+        "7c20752d-b513-429b-ad01-459ccb48abaf": {
+          "id": "7c20752d-b513-429b-ad01-459ccb48abaf",
+          "name": "rocketController",
+          "parameters": {
+            "mainThrustForce": 15,
+            "particleSystem": {
+              "type": "entity",
+              "id": "6d27621a-83da-4937-b605-117ea6dcf7fd"
+            },
+            "torqueStrength": 5
+          }
+        }
+      },
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/beach-ball.glb"
+        }
+      },
+      "id": "f687cdfd-cc08-4755-b2f2-5386dcfabe0b",
+      "name": "Player",
+      "order": 3.639694015189151,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        4,
+        3,
+        17
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "f81d5616-99a5-4bb2-99ba-07ce9a1d4905": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/island/D.glb"
+        }
+      },
+      "id": "f81d5616-99a5-4bb2-99ba-07ce9a1d4905",
+      "material": null,
+      "name": "Island Part D",
+      "order": 3.9644109099569818,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    "fc95012c-9de9-4259-8830-3aa805fc3459": {
+      "components": {},
+      "geometry": null,
+      "hidden": true,
+      "id": "fc95012c-9de9-4259-8830-3aa805fc3459",
+      "material": null,
+      "name": "Colliders",
+      "order": 24.107943062388856,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fcd77b41-5767-42cb-8d13-fde68b24aa5d": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": {
+        "depth": 0.02,
+        "height": 0.1,
+        "type": "box",
+        "width": 0.9
+      },
+      "hidden": true,
+      "id": "fcd77b41-5767-42cb-8d13-fde68b24aa5d",
+      "material": {
+        "color": "#ff0000",
+        "opacity": 0.5,
+        "type": "unlit"
+      },
+      "name": "Collider",
+      "order": 3.927146939233098,
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "position": [
+        0,
+        -0.22215559639954335,
+        0.335
+      ],
+      "rotation": [
+        0,
+        -2.775557561562892e-16,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999999,
+        1,
+        0.9999999999999999
+      ]
+    },
+    "9f5df3bd-f208-487e-9d41-8d8d824e96d0": {
+      "id": "9f5df3bd-f208-487e-9d41-8d8d824e96d0",
+      "position": [
+        -13.18814224776576,
+        2,
+        3.119085984759648
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5,
+        5,
+        5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/campfire.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Campfire",
+      "order": 34.015648027299186,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "19db4e2f-32c4-49a3-9571-2b7dbe8c1933": {
+      "id": "19db4e2f-32c4-49a3-9571-2b7dbe8c1933",
+      "position": [
+        -17.321475459887868,
+        2.0000000000000004,
+        5.9863140645702995
+      ],
+      "rotation": [
+        -7.053661342429034e-17,
+        0.4851986890789902,
+        -8.964744531093158e-17,
+        0.8744039296092105
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/bedroll.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bedroll",
+      "order": 35.247747285554915,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "2e9e57ab-bb0b-4cd1-a5d5-a3c07d88dc3d": {
+      "id": "2e9e57ab-bb0b-4cd1-a5d5-a3c07d88dc3d",
+      "position": [
+        7.180922715376888,
+        2,
+        20.014840713724954
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/barrel.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Barrel",
+      "order": 36.34468956250145,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "c1c7b236-c07d-4af9-bd22-8e8015e58c2b": {
+      "id": "c1c7b236-c07d-4af9-bd22-8e8015e58c2b",
+      "position": [
+        -4.5,
+        4.5,
+        6.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "9b97268c-8d40-408e-ad06-933b4ceebbdc": {
+          "id": "9b97268c-8d40-408e-ad06-933b4ceebbdc",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": 2,
+            "toY": 4.5,
+            "duration": 3000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "fromX": -4.5,
+            "toX": -4.5,
+            "fromZ": 6.5,
+            "toZ": 6.5
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 39.53215172124993,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "fd535af3-3bbd-4b37-a676-6ef15985d9d0": {
+      "id": "fd535af3-3bbd-4b37-a676-6ef15985d9d0",
+      "position": [
+        -16.8539576417284,
+        2,
+        4.654178024502178
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bottle-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bottle",
+      "order": 43.4247242580584,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "6b9ab724-d1a0-492f-a8c9-fddc8b69de71": {
+      "id": "6b9ab724-d1a0-492f-a8c9-fddc8b69de71",
+      "position": [
+        -18.72224668689418,
+        2,
+        7.805327341345622
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bucket.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bucket",
+      "order": 45.10359783789761,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "0bbae569-1cd1-4a7a-9ec7-611911f18907": {
+      "id": "0bbae569-1cd1-4a7a-9ec7-611911f18907",
+      "position": [
+        1.796731190276395,
+        2,
+        -13.33701947052456
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/crate.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Crate",
+      "order": 46.61825388541076,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "8fdd66b9-f320-4a97-8a67-f39d43cb264a": {
+      "id": "8fdd66b9-f320-4a97-8a67-f39d43cb264a",
+      "position": [
+        -9.058122763417243,
+        2,
+        -8.015604166978918
+      ],
+      "rotation": [
+        0,
+        0.5039981373278181,
+        0,
+        0.8637047398099017
+      ],
+      "scale": [
+        5.000000000000003,
+        5,
+        5.000000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 47.660088201227566,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "8fa1d584-6a7d-4b16-8ff0-e47ba7c05432": {
+      "id": "8fa1d584-6a7d-4b16-8ff0-e47ba7c05432",
+      "position": [
+        11.5,
+        14,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "f24ec75b-5130-494e-bf13-b34669286517": {
+          "id": "f24ec75b-5130-494e-bf13-b34669286517",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 359,
+            "shortestPath": false,
+            "duration": 1500
+          }
+        },
+        "1cdad6f5-8d2a-4b8f-b985-f87656e36672": {
+          "id": "1cdad6f5-8d2a-4b8f-b985-f87656e36672",
+          "name": "object-pickup",
+          "parameters": {
+            "playerCamera": {
+              "type": "entity",
+              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+            },
+            "treasureCamera": {
+              "type": "entity",
+              "id": "6010f06f-8421-41b2-8389-2bc2eec68eb4"
+            },
+            "treasureChestObj": {
+              "type": "entity",
+              "id": "a9465e3d-dc5b-4951-9bd3-2d175c11f242"
+            },
+            "treasureLockObj": {
+              "type": "entity",
+              "id": "bbe81457-af38-45f5-a718-5a7354997d0c"
+            },
+            "treasureJewel": {
+              "type": "entity",
+              "id": "c9491efb-06a8-40ba-938e-1450c2be51dc"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/key.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Key",
+      "order": 3.7856183786124213,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "eventOnly": true
+      }
+    },
+    "56a4f723-a2b0-43c9-818e-f20500193698": {
+      "id": "56a4f723-a2b0-43c9-818e-f20500193698",
+      "position": [
+        -6.728611854602467,
+        2,
+        -11.22610742988581
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 56.07598290921374,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "3fce573b-028a-4353-9320-cdb33d4a3c80": {
+      "id": "3fce573b-028a-4353-9320-cdb33d4a3c80",
+      "position": [
+        -4.5,
+        1.4992032848051098,
+        11.770282150409889
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/platform-ramp.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Ramp",
+      "order": 57.36092087276535,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "006ffe40-0c15-422e-ac87-95fdaba6a2d5": {
+      "id": "006ffe40-0c15-422e-ac87-95fdaba6a2d5",
+      "position": [
+        -25.384147682342995,
+        0.8468159006269969,
+        14.030433857603997
+      ],
+      "rotation": [
+        0,
+        0.25070021695753103,
+        0,
+        0.9680647711891218
+      ],
+      "scale": [
+        6.000000000000001,
+        6.000000000000002,
+        5.999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/planks.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plank Pile",
+      "order": 61.64833682324702,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "bca54023-197a-467e-b6f0-c0e7fa9e537e": {
+      "id": "bca54023-197a-467e-b6f0-c0e7fa9e537e",
+      "position": [
+        2.4741972330472652,
+        2,
+        -15.395483344891135
+      ],
+      "rotation": [
+        0,
+        -0.5063091918766811,
+        0,
+        0.8623520175781942
+      ],
+      "scale": [
+        3.900000000000003,
+        3.900000000000001,
+        3.900000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-c.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Rock",
+      "order": 64.56773863212877,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "602e799f-f9b7-48f3-887e-3d1a6c0a6921": {
+      "id": "602e799f-f9b7-48f3-887e-3d1a6c0a6921",
+      "position": [
+        22.870267358697372,
+        2,
+        10.179341650977388
+      ],
+      "rotation": [
+        0,
+        0.19714615175340636,
+        0,
+        0.9803741096381641
+      ],
+      "scale": [
+        3.0000000000000004,
+        3,
+        3.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-sand-a.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Rock",
+      "order": 66.41462920275775,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "8164dbc6-72a7-436f-8609-a2080984ca8f": {
+      "id": "8164dbc6-72a7-436f-8609-a2080984ca8f",
+      "position": [
+        16.165831299420795,
+        2,
+        14.005863165078189
+      ],
+      "rotation": [
+        0,
+        0.49802015962594137,
+        0,
+        0.8671654516908245
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-sand-b.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Rock",
+      "order": 67.47082622787508,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "5931187a-b11b-4f06-a9ea-029bc42144d2": {
+      "id": "5931187a-b11b-4f06-a9ea-029bc42144d2",
+      "position": [
+        2.5,
+        4,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "f24ec75b-5130-494e-bf13-b34669286517": {
+          "id": "f24ec75b-5130-494e-bf13-b34669286517",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 359,
+            "shortestPath": false,
+            "duration": 1500
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/spike-block-wide.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Spike Block Long",
+      "order": 69.06095305237857,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "224e8b97-7d45-47ce-a6e4-c5404064f425": {
+      "id": "224e8b97-7d45-47ce-a6e4-c5404064f425",
+      "position": [
+        9,
+        4,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "f24ec75b-5130-494e-bf13-b34669286517": {
+          "id": "f24ec75b-5130-494e-bf13-b34669286517",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 359,
+            "shortestPath": false,
+            "duration": 1500
+          }
+        },
+        "9b97268c-8d40-408e-ad06-933b4ceebbdc": {
+          "id": "9b97268c-8d40-408e-ad06-933b4ceebbdc",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": 4,
+            "toY": 4,
+            "duration": 3000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "fromZ": -6,
+            "toZ": -3,
+            "fromX": 9,
+            "toX": 9
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/spike-block.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Spike Block",
+      "order": 70.68405678479095,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "6dff98d1-93bf-4436-9e01-2c8c562e8d4e": {
+      "id": "6dff98d1-93bf-4436-9e01-2c8c562e8d4e",
+      "position": [
+        -18.689177238313363,
+        2,
+        5.835907094057234
+      ],
+      "rotation": [
+        0,
+        0.6918627541822184,
+        0,
+        0.722029036379698
+      ],
+      "scale": [
+        5,
+        5,
+        5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tent.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Tent",
+      "order": 74.2145659316594,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "352fc9f3-1fca-4e5a-b1e8-18d010944f7f": {
+      "id": "352fc9f3-1fca-4e5a-b1e8-18d010944f7f",
+      "position": [
+        6.5,
+        2,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/trap-spikes-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Spike Trap",
+      "order": 75.95461476624565,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "7203b8c0-5c7b-4aa3-8789-d5fd1f304fec": {
+      "id": "7203b8c0-5c7b-4aa3-8789-d5fd1f304fec",
+      "position": [
+        -18.603587208203074,
+        2,
+        2.8189305729095113
+      ],
+      "rotation": [
+        0,
+        0.6639755213977184,
+        0,
+        0.7477543092384209
+      ],
+      "scale": [
+        4,
+        4,
+        4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/workbench-anvil.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Anvil",
+      "order": 77.73814495703925,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "9f214d40-ae14-4f48-b224-d3b97ece8238": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/structure-platform.glb"
+        }
+      },
+      "id": "9f214d40-ae14-4f48-b224-d3b97ece8238",
+      "name": "Platform",
+      "order": 4.549085107675789,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -4.5,
+        1.9752249340749461,
+        9.298270246463577
+      ],
+      "rotation": [
+        0,
+        0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "f94e4dd4-3179-4424-81fc-984c42817eba": {
+      "id": "f94e4dd4-3179-4424-81fc-984c42817eba",
+      "position": [
+        -4.5,
+        4.5,
+        -1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "9b97268c-8d40-408e-ad06-933b4ceebbdc": {
+          "id": "9b97268c-8d40-408e-ad06-933b4ceebbdc",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": 4.5,
+            "toY": 4.5,
+            "duration": 3000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "fromZ": -1,
+            "toZ": 3.35,
+            "fromX": -4.5,
+            "toX": -4.5
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 40.03984521414914,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "705e080d-f41c-4a91-b446-eabffccd8591": {
+      "id": "705e080d-f41c-4a91-b446-eabffccd8591",
+      "position": [
+        6.5,
+        4.5,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "9b97268c-8d40-408e-ad06-933b4ceebbdc": {
+          "id": "9b97268c-8d40-408e-ad06-933b4ceebbdc",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": 4.5,
+            "toY": 6,
+            "duration": 3000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "fromZ": -4,
+            "toZ": -4,
+            "fromX": 6.5,
+            "toX": 6.5
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 38.602252192219055,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "cdc80c15-5dbf-4235-94c5-017ce796a6a3": {
+      "id": "cdc80c15-5dbf-4235-94c5-017ce796a6a3",
+      "position": [
+        2.5,
+        6.1,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 0.2,
+        "height": 0.2,
+        "width": 3.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffbb4c",
+        "roughness": 1,
+        "metalness": 0
+      },
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "name": "Balance Beam",
+      "order": 78.98154877439434,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "d8759b55-101b-4761-8de9-5d9f285e7552": {
+      "id": "d8759b55-101b-4761-8de9-5d9f285e7552",
+      "position": [
+        9,
+        2,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/trap-spikes-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Spike Trap",
+      "order": 76.78403141017466,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "e94d0f0f-af8c-45f3-95f0-4eaa0396b234": {
+      "id": "e94d0f0f-af8c-45f3-95f0-4eaa0396b234",
+      "position": [
+        11.5,
+        4.5,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "9b97268c-8d40-408e-ad06-933b4ceebbdc": {
+          "id": "9b97268c-8d40-408e-ad06-933b4ceebbdc",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": 12,
+            "toY": 4.5,
+            "duration": 3000,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "fromZ": -4,
+            "toZ": -4,
+            "fromX": 11.5,
+            "toX": 11.5
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 39.205559896463555,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "4487ee45-17b8-4183-9a54-79aec358e9a7": {
+      "id": "4487ee45-17b8-4183-9a54-79aec358e9a7",
+      "position": [
+        -4.5,
+        4.5,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 41.08486727518863,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "11f17ccc-46fb-40d1-82e9-aa9058cb46cc": {
+      "id": "11f17ccc-46fb-40d1-82e9-aa9058cb46cc",
+      "position": [
+        -1.9970241956540926,
+        4.5,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/moving-platform.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Moving Platform",
+      "order": 41.32414465059941,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 0,
+        "type": "kinematic"
+      }
+    },
+    "2a878e0c-bd7a-4be6-a2b2-9d7824fb54f6": {
+      "id": "2a878e0c-bd7a-4be6-a2b2-9d7824fb54f6",
+      "position": [
+        11.5,
+        2,
+        -4
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/trap-spikes-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Spike Trap",
+      "order": 77.4489525199628,
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "89d5cd8d-3dcd-4bc3-881e-67bec6577504": {
+      "id": "89d5cd8d-3dcd-4bc3-881e-67bec6577504",
+      "position": [
+        -16.56244713095608,
+        2.155152049887497,
+        4.3981908291262695
+      ],
+      "rotation": [
+        0.2840153447039228,
+        0,
+        0,
+        0.9588197348681929
+      ],
+      "scale": [
+        3,
+        3.0000000000000004,
+        3.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bottle-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bottle",
+      "order": 44.28672572146375,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "743a53ec-03b7-4fc1-ae0d-0b72c0c2ef41": {
+      "id": "743a53ec-03b7-4fc1-ae0d-0b72c0c2ef41",
+      "position": [
+        -18.153350413556453,
+        2,
+        7.587210034529159
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bottle-large.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bottle",
+      "order": 44.811541686706526,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "ff0076ae-6463-4d42-b5c6-837c6611e1ec": {
+      "id": "ff0076ae-6463-4d42-b5c6-837c6611e1ec",
+      "position": [
+        -22.280807475829192,
+        0.8468159006269969,
+        12.672152598944493
+      ],
+      "rotation": [
+        0,
+        0.9983516908944445,
+        0,
+        0.05739251944463943
+      ],
+      "scale": [
+        6,
+        6.000000000000002,
+        6
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/planks.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plank Pile",
+      "order": 62.2640270202708,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "88912454-75fc-4ca0-a88e-c3da72a20356": {
+      "id": "88912454-75fc-4ca0-a88e-c3da72a20356",
+      "position": [
+        -28.138920641306676,
+        0.8468159006269969,
+        10.391002546765776
+      ],
+      "rotation": [
+        0,
+        0.9615456302937101,
+        0,
+        0.2746452272716053
+      ],
+      "scale": [
+        5.999999999999999,
+        6.000000000000002,
+        5.999999999999997
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/planks.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plank Pile",
+      "order": 62.628019297100394,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "5f0f61d7-f023-4e35-a88a-fc854d8b2554": {
+      "id": "5f0f61d7-f023-4e35-a88a-fc854d8b2554",
+      "position": [
+        7.828548237116094,
+        2,
+        18.56305524003626
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/barrel.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Barrel",
+      "order": 37.110038881773534,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "20353a41-d542-42f8-b035-327d3b5f3f47": {
+      "id": "20353a41-d542-42f8-b035-327d3b5f3f47",
+      "position": [
+        0.6317817830630749,
+        0.4584180160846343,
+        -14.394416115846182
+      ],
+      "rotation": [
+        -0.15113543699711376,
+        0.6636633401987206,
+        0.4000767720296743,
+        0.6137162430979684
+      ],
+      "scale": [
+        1.0000000000000007,
+        0.9999999999999997,
+        1.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/wrecked-ship.gltf/Environment_House2.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Wrecked Ship",
+      "order": 35.38353815491684,
+      "shadow": {
+        "receiveShadow": false,
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "f5bd5e05-33c2-44f7-b338-ec7826400632": {
+      "id": "f5bd5e05-33c2-44f7-b338-ec7826400632",
+      "position": [
+        -7.96027124678165,
+        2,
+        -10.59778553525195
+      ],
+      "rotation": [
+        0,
+        0.34711939544432774,
+        0,
+        0.937820945226947
+      ],
+      "scale": [
+        5.000000000000004,
+        5,
+        5.000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 49.75750284711617,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "055a395a-fa2b-4c55-adec-3b89c4272a04": {
+      "id": "055a395a-fa2b-4c55-adec-3b89c4272a04",
+      "position": [
+        1.147880781229082,
+        2,
+        -11.81934339540257
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/crate.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Crate",
+      "order": 47.322752044212315,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "3a76cd11-f30e-4f6f-a6c8-4c87dcb7435d": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/palm-tree-3.gltf/Environment_PalmTree_3.gltf"
+        }
+      },
+      "id": "3a76cd11-f30e-4f6f-a6c8-4c87dcb7435d",
+      "material": null,
+      "name": "Palm Tree",
+      "order": 3.902490173150781,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        18.64846753594937,
+        1.9066474760492182,
+        -10.340029362404024
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        0.9999999999999999
+      ],
+      "scale": [
+        1.9000000000000004,
+        1.9000000000000004,
+        1.9000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": false
+      }
+    },
+    "f913e051-4d5f-4266-9f6d-4bde7a75d0d9": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-4.gltf/Environment_Rock_1.gltf"
+        }
+      },
+      "id": "f913e051-4d5f-4266-9f6d-4bde7a75d0d9",
+      "material": null,
+      "name": "Rock",
+      "order": 3.8553759272306274,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        24.07075072551018,
+        2.1062651668442873,
+        -14.502966757672516
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "4e17a8e1-40fb-483b-b6d8-07dd49fc1f19": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-4.gltf/Environment_Rock_1.gltf"
+        }
+      },
+      "id": "4e17a8e1-40fb-483b-b6d8-07dd49fc1f19",
+      "material": null,
+      "name": "Rock",
+      "order": 3.8566243253627777,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        -19.635171718628985,
+        1.0965861777591916,
+        12.97803529993771
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "b80169fb-1bf3-437b-aba1-efece4f023f8": {
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "gltfModel": {
+        "animationClip": "",
+        "loop": true,
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/bones.gltf/Environment_LargeBones.gltf"
+        }
+      },
+      "id": "b80169fb-1bf3-437b-aba1-efece4f023f8",
+      "material": null,
+      "name": "Bones",
+      "order": 3.8366499552483706,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        18.600885335965962,
+        2,
+        -3.791732301191791
+      ],
+      "rotation": [
+        0,
+        -0.43867553369793133,
+        0,
+        0.8986455230706015
+      ],
+      "scale": [
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "7d990dae-2c29-4f04-bfbd-6a88388794f5": {
+      "id": "7d990dae-2c29-4f04-bfbd-6a88388794f5",
+      "position": [
+        19.635519984362904,
+        3.0120112822152842,
+        2.5741010798423254
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 83.85413313996796,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "c63a22ac-e14e-4a55-81cf-ec623b1bf24f": {
+      "id": "c63a22ac-e14e-4a55-81cf-ec623b1bf24f",
+      "position": [
+        20.223300036051835,
+        3.0120112822152842,
+        3.4052361815259093
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 84.35357884258316,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "04661139-6cc9-4b10-a04a-87fb8545ebf5": {
+      "id": "04661139-6cc9-4b10-a04a-87fb8545ebf5",
+      "position": [
+        20.76068551996442,
+        3.0120112822152842,
+        4.287505136750837
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 84.85302454519837,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "44635eb7-fcba-4dd4-82a8-f8be9f6d4f06": {
+      "id": "44635eb7-fcba-4dd4-82a8-f8be9f6d4f06",
+      "position": [
+        21.175040861950823,
+        3.0120112822152842,
+        4.968071967643844
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 85.35247024781356,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "dace8b2d-aa0d-47c8-8130-adbff69c233e": {
+      "id": "dace8b2d-aa0d-47c8-8130-adbff69c233e",
+      "position": [
+        20.479743610325283,
+        3.0120112822152842,
+        4.98654036828678
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 85.85191595042878,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "8a857720-4b40-40d0-80f4-82518d4dcb44": {
+      "id": "8a857720-4b40-40d0-80f4-82518d4dcb44",
+      "position": [
+        19.357627771143086,
+        3.0120112822152842,
+        3.370841045224745
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 86.35136165304398,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "edfd5bfd-2ff2-407c-affb-9bf6cc75dcd7": {
+      "id": "edfd5bfd-2ff2-407c-affb-9bf6cc75dcd7",
+      "position": [
+        19.944629892766777,
+        3.0120112822152842,
+        4.19826496933052
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 86.85080735565919,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "dbbd68ea-a095-49e5-b76b-ad7221ef09ad": {
+      "id": "dbbd68ea-a095-49e5-b76b-ad7221ef09ad",
+      "position": [
+        19.036496558411827,
+        3.0120112822152842,
+        4.197433705892266
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 87.35025305827438,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "79e7f633-17f9-4a94-80c7-e4be631f12c3": {
+      "id": "79e7f633-17f9-4a94-80c7-e4be631f12c3",
+      "position": [
+        19.65039813599381,
+        3.0120112822152842,
+        4.9729992352575465
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 87.8496987608896,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "a41a76c5-ca56-4e6c-822d-31e7ba36559a": {
+      "id": "a41a76c5-ca56-4e6c-822d-31e7ba36559a",
+      "position": [
+        18.796838764420933,
+        3.0120112822152842,
+        4.987242368896042
+      ],
+      "rotation": [
+        0,
+        -0.4403261117102628,
+        0,
+        0.8978379115108255
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/bowling-pin.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Bowling Pin",
+      "order": 88.3491444635048,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic",
+        "restitution": 0,
+        "gravityFactor": 1
+      }
+    },
+    "d0d7710a-aa64-4be3-b28b-eccb85628341": {
+      "id": "d0d7710a-aa64-4be3-b28b-eccb85628341",
+      "position": [
+        6.4796875601353685,
+        2.6506673754587267,
+        1.387403466195485
+      ],
+      "rotation": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.5000000000000009,
+        1.5,
+        1.5000000000000009
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "a56c4df8-578b-455c-bf31-37d50e3be6df": {
+          "id": "a56c4df8-578b-455c-bf31-37d50e3be6df",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": -120,
+            "fromY": -60,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "duration": 3000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/cannon-bottom.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Cannon-1",
+      "order": 3.7890545991125864,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "84249fe8-18e1-4ece-bdfd-5a3094e0cdae": {
+      "id": "84249fe8-18e1-4ece-bdfd-5a3094e0cdae",
+      "position": [
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        -8.881784197001252e-16
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.3007057995042731,
+        0.9537169507482269
+      ],
+      "scale": [
+        1.0000000000000002,
+        0.9999999999999998,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d0d7710a-aa64-4be3-b28b-eccb85628341",
+      "components": {
+        "a56c4df8-578b-455c-bf31-37d50e3be6df": {
+          "id": "a56c4df8-578b-455c-bf31-37d50e3be6df",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 0,
+            "fromY": 0,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "duration": 3000,
+            "toZ": -15,
+            "fromZ": -35
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/cannon-top.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CannonTop",
+      "order": 91.293983177371,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "84baa0ef-8bac-433d-9c90-d8486307cf87": {
+      "id": "84baa0ef-8bac-433d-9c90-d8486307cf87",
+      "position": [
+        -0.628299501466322,
+        0.3000518677754973,
+        -0.0002702664859347559
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84249fe8-18e1-4ece-bdfd-5a3094e0cdae",
+      "components": {
+        "acf1aa3d-75ca-42c8-bf7e-436e37f0f48e": {
+          "id": "acf1aa3d-75ca-42c8-bf7e-436e37f0f48e",
+          "name": "cannon-launch",
+          "parameters": {
+            "cannonballPrefab": {
+              "type": "entity",
+              "id": "4a00df33-41af-405e-aa57-f4a20b8a973a"
+            },
+            "fireInterval": 1000,
+            "cannonballMesh": "assets/models/props/cannonball.gltf/Prop_CannonBall.gltf",
+            "deleteTimeout": 4,
+            "firePower": 15
+          }
+        }
+      },
+      "name": "CannonOut",
+      "order": 1.325155950042947
+    },
+    "1d4149da-6f87-4382-8506-8b09b8c7ac18": {
+      "id": "1d4149da-6f87-4382-8506-8b09b8c7ac18",
+      "position": [
+        11,
+        2.6506673754587267,
+        1.387403466195485
+      ],
+      "rotation": [
+        0,
+        -0.7071067811865475,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1.5000000000000009,
+        1.5,
+        1.5000000000000009
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {
+        "a56c4df8-578b-455c-bf31-37d50e3be6df": {
+          "id": "a56c4df8-578b-455c-bf31-37d50e3be6df",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": -60,
+            "fromY": -120,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "duration": 3000
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/cannon-bottom.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Cannon-2",
+      "order": 3.7924908196127514,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "9080ecc0-3cc3-443d-90f0-1f19d1ed38c1": {
+      "id": "9080ecc0-3cc3-443d-90f0-1f19d1ed38c1",
+      "position": [
+        1.1102230246251565e-16,
+        2.220446049250313e-16,
+        -8.881784197001252e-16
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.3007057995042731,
+        0.9537169507482269
+      ],
+      "scale": [
+        1.0000000000000002,
+        0.9999999999999998,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1d4149da-6f87-4382-8506-8b09b8c7ac18",
+      "components": {
+        "a56c4df8-578b-455c-bf31-37d50e3be6df": {
+          "id": "a56c4df8-578b-455c-bf31-37d50e3be6df",
+          "name": "rotate-animation",
+          "parameters": {
+            "toY": 0,
+            "fromY": 0,
+            "reverse": true,
+            "easeIn": true,
+            "easeOut": true,
+            "duration": 3000,
+            "toZ": -35,
+            "fromZ": -15
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/cannon-top.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "CannonTop",
+      "order": 91.293983177371,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "36622bb9-6adf-4494-ba0d-a32b6031567f": {
+      "id": "36622bb9-6adf-4494-ba0d-a32b6031567f",
+      "position": [
+        -0.628299501466322,
+        0.3000518677754973,
+        -0.0002702664859347559
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9080ecc0-3cc3-443d-90f0-1f19d1ed38c1",
+      "components": {
+        "acf1aa3d-75ca-42c8-bf7e-436e37f0f48e": {
+          "id": "acf1aa3d-75ca-42c8-bf7e-436e37f0f48e",
+          "name": "cannon-launch",
+          "parameters": {
+            "cannonballPrefab": {
+              "type": "entity",
+              "id": "4a00df33-41af-405e-aa57-f4a20b8a973a"
+            },
+            "fireInterval": 1000,
+            "cannonballMesh": "assets/models/props/cannonball.gltf/Prop_CannonBall.gltf",
+            "deleteTimeout": 4,
+            "firePower": 15
+          }
+        }
+      },
+      "name": "CannonOut",
+      "order": 1.325155950042947
+    },
+    "5b9b5bec-68d2-4e72-b27d-7d0566c1b274": {
+      "id": "5b9b5bec-68d2-4e72-b27d-7d0566c1b274",
+      "position": [
+        6.451405460645592,
+        2,
+        18.459044658656204
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/barrel.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Barrel",
+      "order": 36.5747769485341,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "mass": 1,
+        "type": "dynamic"
+      }
+    },
+    "d09bef5a-f418-4f71-a815-2c855ecb0464": {
+      "id": "d09bef5a-f418-4f71-a815-2c855ecb0464",
+      "position": [
+        18.270467369779226,
+        2,
+        -15.000802462658196
+      ],
+      "rotation": [
+        0,
+        -0.05535277809300455,
+        0,
+        0.9984668597191328
+      ],
+      "scale": [
+        5.0000000000000036,
+        5,
+        5.0000000000000036
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 48.90921911011653,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "e7209d5c-1e1c-4fcc-8a35-fec288c0ba43": {
+      "id": "e7209d5c-1e1c-4fcc-8a35-fec288c0ba43",
+      "position": [
+        21.07633958542983,
+        2,
+        -15.005238753384102
+      ],
+      "rotation": [
+        0,
+        -0.22710594094302625,
+        0,
+        0.973870058882797
+      ],
+      "scale": [
+        5.000000000000004,
+        5,
+        5.000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 51.82171102224241,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "ec1c5ea5-e729-40b9-acb4-bc786c5784d6": {
+      "id": "ec1c5ea5-e729-40b9-acb4-bc786c5784d6",
+      "position": [
+        5.797568476022132,
+        2,
+        -15.683444630134556
+      ],
+      "rotation": [
+        0,
+        0.1646562609645569,
+        0,
+        0.9863510104040913
+      ],
+      "scale": [
+        5.0000000000000036,
+        5,
+        5.0000000000000036
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 49.21309247487676,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "e215705d-a456-4c72-9c54-212882e7e779": {
+      "id": "e215705d-a456-4c72-9c54-212882e7e779",
+      "position": [
+        8.332397206351088,
+        2,
+        -16.88659959901194
+      ],
+      "rotation": [
+        0,
+        -0.008314253795067542,
+        0,
+        0.9999654359945805
+      ],
+      "scale": [
+        5.000000000000004,
+        5,
+        5.000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/fence-fortified.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Fence",
+      "order": 52.323866464300195,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "5a1b0181-f4d4-4178-9b45-258865257ece": {
+      "id": "5a1b0181-f4d4-4178-9b45-258865257ece",
+      "position": [
+        18.86660215666771,
+        2,
+        11.268083428003047
+      ],
+      "rotation": [
+        0,
+        0.716237350633758,
+        0,
+        0.6978567600569153
+      ],
+      "scale": [
+        8.031883163956238,
+        8.031883163956234,
+        8.031883163956238
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/rock-sand-b.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Rock",
+      "order": 68.32817318145047,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "1a01a988-c962-4f8b-a3ef-699ffb29f3e2": {
+      "id": "1a01a988-c962-4f8b-a3ef-699ffb29f3e2",
+      "position": [
+        -22.15555001510827,
+        -0.2686949419976272,
+        43.903173597975886
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        6,
+        6,
+        6
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/raft.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Raft",
+      "order": 95.19054038598959,
+      "hidden": false
+    },
+    "57e21100-6ddb-4a0b-b97d-516d9782c042": {
+      "id": "57e21100-6ddb-4a0b-b97d-516d9782c042",
+      "position": [
+        -1.3322676295501878e-15,
+        0.07175458399646055,
+        1.7763568394002505e-15
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 0.2,
+        "width": 0.8
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "1a01a988-c962-4f8b-a3ef-699ffb29f3e2",
+      "components": {},
+      "name": "Collider",
+      "order": 1.616195337315332,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "2aa3db77-9873-4090-925c-85d0a33b275d": {
+      "id": "2aa3db77-9873-4090-925c-85d0a33b275d",
+      "position": [
+        -1.3322676295501878e-15,
+        0.6339096370304743,
+        0.019161708108450526
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 0.5,
+        "height": 0.15,
+        "width": 0.7000000000000001
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "1a01a988-c962-4f8b-a3ef-699ffb29f3e2",
+      "components": {},
+      "name": "Collider",
+      "order": 2.8123504827393715,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "8ccfc18a-8fbc-4fdf-9546-d3a0ee0e578c": {
+      "id": "8ccfc18a-8fbc-4fdf-9546-d3a0ee0e578c",
+      "position": [
+        0.0001242197283688462,
+        0.5514408207175183,
+        -0.015320597805944303
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "cylinder",
+        "radius": 0.025,
+        "height": 0.9
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "1a01a988-c962-4f8b-a3ef-699ffb29f3e2",
+      "components": {},
+      "name": "Collider",
+      "order": 4.759320006073012,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "c50d2191-6b34-4644-8e81-1772dea9cd31": {
+      "id": "c50d2191-6b34-4644-8e81-1772dea9cd31",
+      "position": [
+        -0.14096798182552228,
+        -0.09515587957532642,
+        0.005244947616379836
+      ],
+      "rotation": [
+        0,
+        1.1102230246251563e-16,
+        0,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 0.35,
+        "height": 0.4,
+        "width": 0.30000000000000004
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "components": {},
+      "name": "Collider",
+      "order": -0.9531276937255955,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "parentId": "a1c68663-26b6-459b-b6f3-5eef0a83c256",
+      "hidden": true
+    },
+    "b2d3859d-36f3-4dd4-b2ed-f167569fa3eb": {
+      "id": "b2d3859d-36f3-4dd4-b2ed-f167569fa3eb",
+      "position": [
+        4.131717581365446,
+        2.025,
+        10.961615756571447
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        6.100000000000001,
+        6.100000000000001,
+        6.100000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 174,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/textures/instructions.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Instructions",
+      "order": 3.795927040112916
+    },
+    "cd1cddb8-67ec-4465-8fb8-9248bc9035d1": {
+      "id": "cd1cddb8-67ec-4465-8fb8-9248bc9035d1",
+      "position": [
+        19.227989141893296,
+        1.09528257700613,
+        21.270025590512134
+      ],
+      "rotation": [
+        0,
+        -0.28277567082086946,
+        0,
+        0.9591860716210422
+      ],
+      "scale": [
+        7.500000000000001,
+        7.5,
+        7.500000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/dino-bones.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Dino Bones",
+      "order": 96.07226811753496,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "18f775c2-8c85-4413-b4ab-6c0069068dfc": {
+      "id": "18f775c2-8c85-4413-b4ab-6c0069068dfc",
+      "position": [
+        -0.29838270421901214,
+        0.025438517156549434,
+        -0.05091912468147963
+      ],
+      "rotation": [
+        0.42316335895522755,
+        0.08373619204472456,
+        0.5003915581110178,
+        0.7506858932674879
+      ],
+      "scale": [
+        0.28343674549750203,
+        0.2834367454975018,
+        0.28343674549750236
+      ],
+      "geometry": {
+        "type": "capsule",
+        "radius": 0.6000000000000001,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "cd1cddb8-67ec-4465-8fb8-9248bc9035d1",
+      "components": {},
+      "name": "Collider",
+      "order": 1.8448122190587313,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "66f211c3-54d5-41c9-bfb4-66dd365ee663": {
+      "id": "66f211c3-54d5-41c9-bfb4-66dd365ee663",
+      "position": [
+        0.05506976485119264,
+        -0.07904589897790275,
+        -0.16007325759059854
+      ],
+      "rotation": [
+        0.2409467736777454,
+        -0.16069297997209486,
+        0.6094289064733708,
+        0.7380506936495927
+      ],
+      "scale": [
+        0.283436745497502,
+        0.28343674549750175,
+        0.28343674549750236
+      ],
+      "geometry": {
+        "type": "capsule",
+        "radius": 0.6000000000000001,
+        "height": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "cd1cddb8-67ec-4465-8fb8-9248bc9035d1",
+      "components": {},
+      "name": "Collider",
+      "order": 3.0100203922431925,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "9cb9726b-ecd9-4585-b5d3-68eee16c9f6e": {
+      "id": "9cb9726b-ecd9-4585-b5d3-68eee16c9f6e",
+      "position": [
+        14.920881099989334,
+        2,
+        11.472824665728616
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 56.69311794194161,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "b5dbadbc-e7b3-4186-9563-29ea409f46ef": {
+      "id": "b5dbadbc-e7b3-4186-9563-29ea409f46ef",
+      "position": [
+        15.572745832189845,
+        2,
+        9.023481997877937
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 57.15041725469565,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "83d19d1b-88c5-441c-8089-a6e6fa099739": {
+      "id": "83d19d1b-88c5-441c-8089-a6e6fa099739",
+      "position": [
+        23.02609396946685,
+        2,
+        12.52189577315879
+      ],
+      "rotation": [
+        0,
+        0.2194578764839414,
+        0,
+        0.9756219762024424
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 57.243774245747204,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "d59097d5-f893-4a52-9e19-3e7cc2237fe4": {
+      "id": "d59097d5-f893-4a52-9e19-3e7cc2237fe4",
+      "position": [
+        22.04014155478871,
+        2,
+        -13.232172863922443
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 57.305597142492914,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "e7ad7d1b-abc5-41f6-a288-73fd2065fd89": {
+      "id": "e7ad7d1b-abc5-41f6-a288-73fd2065fd89",
+      "position": [
+        13.288526927629459,
+        0.42179904339278007,
+        26.288106142043745
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 57.33167679973907,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "1f69cea7-a102-487e-b75f-59ec289be5ed": {
+      "id": "1f69cea7-a102-487e-b75f-59ec289be5ed",
+      "position": [
+        10.919991958582447,
+        0.42179904339278007,
+        25.106088214745117
+      ],
+      "rotation": [
+        0,
+        -0.44318104068720876,
+        0,
+        0.8964321308249735
+      ],
+      "scale": [
+        2.9999999999999996,
+        3,
+        2.9999999999999996
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/plant.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Plant",
+      "order": 57.33967677315547,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "5e55382b-bed3-435b-81ea-86917ebb01d7": {
+      "id": "5e55382b-bed3-435b-81ea-86917ebb01d7",
+      "position": [
+        19.825531172626757,
+        2.7800211038052054,
+        13.79856530999929
+      ],
+      "rotation": [
+        0.3901201436536751,
+        0.0017580934986093063,
+        -0.10914115264638505,
+        0.9142709617076901
+      ],
+      "scale": [
+        4.099999999999999,
+        4.1,
+        4.1000000000000005
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/anchor.gltf/Prop_Anchor.gltf"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Anchor",
+      "order": 97.73887288982007,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "e27fe936-eef4-4ca2-85c6-2b7d7fa95786": {
+      "id": "e27fe936-eef4-4ca2-85c6-2b7d7fa95786",
+      "position": [
+        24.58455906390003,
+        1.2809999733480417,
+        20.233983876340222
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5,
+        5,
+        5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tree-log.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Log",
+      "order": 99.14628089387156,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "5238dc0e-f711-4bca-945d-71abd5bed2c9": {
+      "id": "5238dc0e-f711-4bca-945d-71abd5bed2c9",
+      "position": [
+        25.878579610240152,
+        1.2809999733480417,
+        20.054500746292742
+      ],
+      "rotation": [
+        0,
+        0,
+        0.5891585303815766,
+        0.808017466444025
+      ],
+      "scale": [
+        5,
+        5,
+        5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tree-log.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Log",
+      "order": 100.88191440049816,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "ffc15afe-38e3-4f04-9223-b70d714375d8": {
+      "id": "ffc15afe-38e3-4f04-9223-b70d714375d8",
+      "position": [
+        25.248219860920184,
+        2.1991133298943937,
+        20.054500746292742
+      ],
+      "rotation": [
+        0,
+        0,
+        0.5891585303815766,
+        0.8080174664440248
+      ],
+      "scale": [
+        5.000000000000001,
+        5.000000000000001,
+        5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/tree-log.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Log",
+      "order": 102.82397384470207,
+      "shadow": {
+        "castShadow": true
+      },
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "85fe46cc-86e7-4528-b53b-f080bc8f26d1": {
+      "id": "85fe46cc-86e7-4528-b53b-f080bc8f26d1",
+      "position": [
+        20.362441058209775,
+        2.628130031492044,
+        17.73015381575071
+      ],
+      "rotation": [
+        0.9117361593515884,
+        -0.07968742217995173,
+        0.21200740249376684,
+        0.34269512947366954
+      ],
+      "scale": [
+        9.000000000000004,
+        9.000000000000004,
+        9.000000000000005
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/shovel.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Shovel",
+      "order": 104.57415721960488,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      }
+    },
+    "5624fb57-93b6-429e-a666-3cfff44b134e": {
+      "id": "5624fb57-93b6-429e-a666-3cfff44b134e",
+      "position": [
+        4.118808529784711,
+        2.9007478043720205,
+        -15.898396447880375
+      ],
+      "rotation": [
+        0.026562505555526774,
+        0.04509418603851219,
+        0.5068427992735465,
+        0.8604483276226947
+      ],
+      "scale": [
+        6.000000000000003,
+        6.000000000000003,
+        5.999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/environment/pickaxe.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Pickaxe",
+      "order": 105.59336033476438
+    },
+    "c43f4dd9-79d2-4282-9168-25c66f10b307": {
+      "id": "c43f4dd9-79d2-4282-9168-25c66f10b307",
+      "position": [
+        0.18661066825307648,
+        -0.1477848994838511,
+        -2.6645352591003757e-15
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 0.6000000000000001,
+        "width": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "parentId": "d0d7710a-aa64-4be3-b28b-eccb85628341",
+      "components": {},
+      "name": "Collider",
+      "order": 92.44996365817482,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true
+    },
+    "52435b3e-7cee-4ff6-8d3f-c3cfcf1dfbf7": {
+      "id": "52435b3e-7cee-4ff6-8d3f-c3cfcf1dfbf7",
+      "position": [
+        0.17771424695921556,
+        -0.1440410170306916,
+        -1.7763568394002505e-15
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1,
+        "height": 0.6000000000000001,
+        "width": 1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "components": {},
+      "name": "Collider",
+      "order": 93.24758170219982,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true,
+      "parentId": "1d4149da-6f87-4382-8506-8b09b8c7ac18"
+    },
+    "a9465e3d-dc5b-4951-9bd3-2d175c11f242": {
+      "id": "a9465e3d-dc5b-4951-9bd3-2d175c11f242",
+      "position": [
+        0.7677817910305702,
+        1.983932008589583,
+        1.0792889607053864
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/treasure-chest.glb"
+        },
+        "animationClip": "ChestOpen",
+        "loop": true,
+        "paused": true,
+        "repetitions": 1
+      },
+      "name": "Treasure Chest",
+      "order": 109.12600773551777,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "98117922-d10a-4efd-9fba-2076de289ef5": {
+      "id": "98117922-d10a-4efd-9fba-2076de289ef5",
+      "position": [
+        0,
+        1.6154662997610143,
+        -0.002055507203994056
+      ],
+      "rotation": [
+        0.5,
+        0.5,
+        -0.4999999999999999,
+        0.5000000000000001
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "cylinder",
+        "radius": 1,
+        "height": 3.1
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "components": {},
+      "name": "Collider",
+      "order": 110.37051383526831,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true,
+      "parentId": "a9465e3d-dc5b-4951-9bd3-2d175c11f242"
+    },
+    "1db2098e-3e9e-4fce-9831-b3b30ba236d8": {
+      "id": "1db2098e-3e9e-4fce-9831-b3b30ba236d8",
+      "position": [
+        0,
+        0.7154506041863011,
+        -0.002055507203994056
+      ],
+      "rotation": [
+        0.5,
+        0.5,
+        -0.4999999999999999,
+        0.5000000000000001
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "box",
+        "depth": 1.4,
+        "height": 2.6,
+        "width": 1.9000000000000001
+      },
+      "material": {
+        "type": "unlit",
+        "color": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "components": {},
+      "name": "Collider",
+      "order": 111.9407870285495,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        }
+      },
+      "hidden": true,
+      "parentId": "a9465e3d-dc5b-4951-9bd3-2d175c11f242"
+    },
+    "bbe81457-af38-45f5-a718-5a7354997d0c": {
+      "id": "bbe81457-af38-45f5-a718-5a7354997d0c",
+      "position": [
+        0.7320729579857659,
+        3.494502180731653,
+        2.296722068218621
+      ],
+      "rotation": [
+        -0.29130171055951465,
+        0,
+        0,
+        0.9566312316797422
+      ],
+      "scale": [
+        0.5,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/lock.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Lock",
+      "order": 110.47553998538577,
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 0.5,
+          "height": 1.8000000000000003,
+          "width": 1.3
+        },
+        "mass": 0,
+        "type": "static"
+      },
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "6010f06f-8421-41b2-8389-2bc2eec68eb4": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "3dOnly",
+          "desktop": "3D",
+          "phone": "3D",
+          "headset": "disabled"
+        },
+        "fov": 60
+      },
+      "components": {},
+      "geometry": null,
+      "id": "6010f06f-8421-41b2-8389-2bc2eec68eb4",
+      "material": null,
+      "name": "TreasureCamera",
+      "order": 0.06852063857221252,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "position": [
+        3.5,
+        3.75,
+        5
+      ],
+      "rotation": [
+        0.014425744592959302,
+        0.9599443201922759,
+        -0.05030855005664604,
+        -0.27525960440051106
+      ],
+      "scale": [
+        0.9999999999999996,
+        1,
+        0.9999999999999999
+      ]
+    },
+    "c9491efb-06a8-40ba-938e-1450c2be51dc": {
+      "id": "c9491efb-06a8-40ba-938e-1450c2be51dc",
+      "position": [
+        0.75,
+        3,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/models/props/8-jewel.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "8-Jewel",
+      "order": 111.50026191856028,
+      "shadow": {
+        "castShadow": true
+      }
+    }
+  },
+  "sky": {
+    "type": "gradient",
+    "colors": [
+      "#464766",
+      "#08061F"
+    ]
+  },
+  "spaces": {
+    "40f42a38-19e3-4ed6-90de-138fc409d6eb": {
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "fog": {
+        "type": "linear",
+        "near": 0.1,
+        "far": 1000,
+        "color": "#FFFFFF"
+      },
+      "id": "40f42a38-19e3-4ed6-90de-138fc409d6eb",
+      "name": "Default",
+      "reflections": {
+        "type": "url",
+        "url": "https://cdn.8thwall.com/web/assets/envmap/basic_env_map-m9hqpneh.jpg"
+      },
+      "sky": {
+        "type": "gradient",
+        "colors": [
+          "#e5f4ff",
+          "#00ccff"
+        ]
+      }
+    }
+  },
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
