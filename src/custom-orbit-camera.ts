@@ -1,4 +1,5 @@
 import * as ecs from '@8thwall/ecs'
+console.log('imported ecs', ecs)
 // Import camera data from both controllers
 // The camera will update the appropriate one based on controllerType
 import {ballCameraData} from './ball-controller'
@@ -17,6 +18,7 @@ const customOrbitCam = ecs.registerComponent({
     minVelocityThreshold: ecs.f32,  // Minimum velocity to trigger auto-orient
     controllerType: ecs.string,     // Type of controller: 'ball' or 'rocket'
   },
+  other: 2,
   schemaDefaults: {
     distance: 5.0,
     height: 2.0,

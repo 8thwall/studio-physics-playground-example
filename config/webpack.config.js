@@ -42,6 +42,10 @@ const config = {
           noErrorOnMissing: true,
         },
         {
+          from: path.join(rootPath, 'node_modules/@8thwall/ecs/dist'),
+          to: path.join(distPath, 'external/ecs'),
+        },
+        {
           from: path.join(srcPath, 'assets'),
           to: path.join(distPath, 'assets'),
           noErrorOnMissing: true,
@@ -66,9 +70,6 @@ const config = {
   },
   mode: 'production',
   context: srcPath,
-  externals: {
-    '@8thwall/ecs': 'window.ecs',
-  },
   devServer: {
     open: false,
     compress: true,
