@@ -2,14 +2,10 @@
 
 This example studio project demonstrates how to build multiple player controllers, switch between them dynamically, and integrate physics-driven gameplay with smooth camera tracking.
 
-![Rocket ship and beach ball traversing platforms on a pirate themed island](./src/assets/preview.gif)
+![Beach ball in front of video game platforms on a pirate themed island](./src/assets/preview.gif)
 
-<details><summary>Try it out</summary>
 
-https://8thwall.org/studio-physics-playground-example/
-
-<img alt="QR Code for the preview link" src="https://8th.io/qr?v=2&url=https://8thwall.org/studio-physics-playground-example/" width=250 height=250 />
-
+Try it out: https://8thwall.org/studio-physics-playground-example/
 
 ## Usage
 
