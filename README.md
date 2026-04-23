@@ -2,7 +2,14 @@
 
 This example studio project demonstrates how to build multiple player controllers, switch between them dynamically, and integrate physics-driven gameplay with smooth camera tracking.
 
-![](./src/assets/preview.gif)
+![Rocket ship and beach ball traversing platforms on a pirate themed island](./src/assets/preview.gif)
+
+<details><summary>Try it out</summary>
+
+https://8thwall.org/studio-physics-playground-example/
+
+<img alt="QR Code for the preview link" src="https://8th.io/qr?v=2&url=https://8thwall.org/studio-physics-playground-example/" width=250 height=250 />
+
 
 ## Usage
 
@@ -11,6 +18,10 @@ This example studio project demonstrates how to build multiple player controller
 3. Unzip the folder to the location you'd like to work in
 4. In the desktop app, click "Open" and select the folder
 5. Recommended: Track your files using [git](https://git-scm.com/about) to avoid losing progress
+
+## Deployment
+
+This project contains Github Actions configuration for deployment to Github Pages, which triggers automatically by pushing the `main` branch. You can also follow the publishing instructions here: https://8thwall.org/docs/getting-started/publishing to publish to any other web host.
 
 ## Questions?
 
